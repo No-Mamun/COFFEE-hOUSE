@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(97, 48, 19, 0.856),
+        rgba(97, 48, 19, 0.856)
+    ),url(images/photo-1508424757105-b6d5ad9329d0.jpg);
+}
+.navbar{
+    height: 10%;
+    display: flex;
+}
+.nav-left{
+    flex-basis: 30%;
+    background-color: antiquewhite;
+    position: relative;
+}
+.nav-icon{
+    left: 5%;
+    top: 10%;
+position: absolute;
+}
+.nav-icon ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.nav-icon ul li i{
+    color: gray;
+}
+
+nav-menu nav{
+        position: relative;
+        height: 50px;
+        background: #34495e;
+        border-radius: 8px;
+        font-size: 0;
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+        background-color:#0088a9; 
+    }
+    nav a{
+        font-family: sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        line-height: 50px;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        text-align: center;
+    }
+    nav .animation{
+        position: absolute;
+         height: 10%;
+        top: 0; 
+        z-index: 0;
+        background-color: #e4bc84;
+        width: 100px;
+        margin-left: 480px;
+        border-radius: 8px;
+        transition: all .5s ease 0s;
+    }
+    a:nth-child(1){
+        width: 100px;
+    }
+    nav .start-home,a:nth-child(1):hover~.animation{
+        width: 100px;
+        left: 0;
+    }
+    a:nth-child(2){
+        width: 110px;
+    }
+    nav .start-about,a:nth-child(2):hover~.animation{
+        width: 100px;
+        left:100px;
+    }
+    
+    a:nth-child(3){
+        width: 100px;
+    }
+    nav .start-Blog,a:nth-child(3):hover~.animation{
+        width: 100px;
+        left: 210px;
+    }
+    a:nth-child(4){
+        width: 110px;
+    }
+    nav .start-Portfolio,a:nth-child(4):hover~.animation{
+        width: 130px;
+        left: 310px;
+    }
+    a:nth-child(5){
+        width: 110px;
+    }
+    nav .start-Contact,a:nth-child(5):hover~.animation{
+        width: 120px;
+        left: 435px;
+     }
+     .btn{
+        font-weight: bold;
+        transition: all .3s ease 0s;
+    }
+    .btn button{
+        font-family: 'Dynalight', cursive;
+        font-family: 'Great Vibes', cursive;
+       background-color:#80411e ;
+       color: #e4bc84;
+        padding: 10px;
+        font-size: 32px;
+        margin-top: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+        font-style: italic;
+        font-weight: bold;
+    } 
+    button{
+       margin-left: 50px;
+    }
+    .btn button:hover{
+        background-color: #80411e;
+       color: #d2c1b0;
+    }
+.content{
+    height: 90%;
+    display: flex;
+}
+.content-left{
+    background: white;
+    flex-basis: 30%;
+    position: relative;
+}
+.socialmedia{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.socialmedia ul li{
+    width: 30px;
+    height: 30px;
+    background-color: #194a8d;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    list-style-type: none;
+}
+.socialmedia ul li i{
+    color: white;
+    width: 100px;
+    border: 1px solid #39a275;
+}
+.socialmedia ul li i:hover{
+    color: #8F3985;
+}
+.content-right{
+   flex-basis: 70%;
+    position: relative;
+}
+.text{
+    right: 10%;
+    bottom: 20%;
+    position: absolute;
+}
+.text h1{
+    font-family: 'Dancing Script', cursive; 
+     font-size: 60px;  
+    color: #FEC397;
+}
+.text p{
+    color: white;
+    font-size: 25px;
+}
+.display{
+    top: 10%;
+    left: -10%;
+    position: absolute;
+}
+.display img{
+    width: 50%;
+    height: 50%;
+}
+nav a:hover{
+   color: #9B461F;
+}
+.fa-facebook{
+    background-color: #3B5998;
+}
+.fa-instagram{
+    background-color: #405de6;
+}
+.fa-twitter{
+    background-color: #00ACEE;
+}
+.fa-youtube{
+    background-color: #C4302B;
+}
